@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--a tag <html> define que o conteúdo do elemento está em
+linguagem pt-br e o atributo é lang -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Móveis customizados</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+
+<link rel="stylesheet" href="style.css">
+<!-- a tag <link> irá iniciar o arquivo de estilo chamado CSS. Essa tag contêm dois atributos em seu elemento e
+o atributo href se refere a um link interno (pois não contêm o protocolo https)
+e irá procurar na raiz do meu projeto o style.css-->
+
+
+</head>
+<body>
+    <div id="hero">
+    <!--a tag <div> define que há uma divisão de elementos dentro
+    de um bloco,caixa ou container chamado de hero e o atributo
+    é um id chamado de hero. Nessa div há: 01 imagem e 02 parágrafos-->
+
+        <img src="images/img1.jpg" alt="pessoa com camisa amarela">
+        <!--a tag <img> define que o conteúdo do elemento é uma
+        imagem img1.jpg e os atributos são src e alt-->
+        
+        <h1>Ambientes <span>únicos</span> para você!</h1>
+
+        <p>
+            Nós criamos ambientes <strong> exclusívos e únicos,</strong> com muito bom
+            gosto e profissionalismo, investimos tempo e <span>dedicação no
+            seu projeto.</span> 
+
+            </br> <!--O elemento quebra-de-linha </br> produz uma quebra de linha em um texto-->
+            </br> <!--nesse caso euqubrei duas vezes a linha-->
+
+            Tenha <span> ambientes limpos</span> e bem decorados, transmitindo 
+            <strong>elegância e finesse</strong> para todo aquele que estiver ali.
+        
+        </p>
+
+    </div>
+
+    <div id="footer"> <!--criei uma div com atributo id de nome footer(rodapé)-->
+
+        <div id="line"></div> <!--declarei um id de nome line dentro de uma div para
+        inserir uma linha via CSS acima do footer-->
+
+        <!--a tag <div> define uma divisão em blocos, container ou caixa
+        e o atributo é um id chamado de footer. Nessa div há: 02 links-->
+        <a target="_blank" href="https://instagram.com/moveis">Instagram</a> 
+        <!--a tag <a> define que o conteúdo do elemento está
+        em linha e é um link chamado de Instagram e os atributos são target e href.
+        target é para abrir o link em uma nova aba-->
+
+        <a href="mailto:contato@moveisparavoce.com">Fale conosco</a>
+        <!--a tag <a> define que o conteúdo do elemento está
+        em linha e é um link que envia e-mail chamado de Fale conosco e o atributo é href-->
+
+    </div>
+    
+       
+    <img id="balls" src="images/balls.svg" alt="bolinhas laranja">
+    <!--a tag <img> define que o conteúdo do elemento contê um id chamado balls
+    e os atributos são id src e alt-->
+</body>
+</html>

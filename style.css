@@ -1,0 +1,92 @@
+body { /* é todo meu hero + footer é o corpo do projeto */
+    text-align: center; /* text-align=alinhamento de texto. centralizei tudo na minha página */
+    font-family: 'Open Sans', sans-serif; /* copiado do google fonts todo o body é com
+    essa font-family */
+    margin-top: 0; /* margin-top=margem superior. por padrão há uma margem de 8px do body para o navegador e para retirar
+    inserimos um margin-top 0 no body */
+    background: white;
+}
+
+#hero { /* o # é o id e para tudo que contenha no id hero dentro da div faça essa largura widht */
+    width: 592px; /* width = largura de toda a caixa que contêm o id hero. Consta no figma */
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-left: auto;
+   
+    /* margin: 0 auto 72px; /* 0 para top, automático para right e left e 72px para bottom*/
+    
+    /* definimos uma largura autumotácia para as margens:direita(right) e esquerda(left)
+    da caixa que contêm o id hero para a página do navegador. Assim ficou centralizado.
+    A margin:auto não aceita o top e bottom somente o left e right*/
+}
+
+#hero img { /* a img contida no id hero dentro da div*/
+    margin-bottom: 72px; /* margim-bottom = margem inferior. espaço da margem inferior dessa imagem(img1) para a caixa abaixo(h1) */
+}
+
+#hero h1 { /* todo h1 vai conter essa typography */
+    font-family: 'Inter', sans-serif; /* copiado do google fonts */
+    font-size: 49px; /* font-size= tamanho da fonte. consta no figma */
+    line-height: 56px; /* altura entre as linhas (height = altura e line = linha) consta no figma em Tpography */
+    font-weight: normal; /*font-weight= espessura da fonte.  O h1 por padrão já vem todo em bold ou negrito. */
+    margin-bottom: 32px;/*espaço da margem inferior da caixa h1 para a caixa abaixo(p) */
+}
+
+#hero h1 span { /* o span contido no h1 vai conter essa typography */
+    font-weight: bold; /*font-weight= espessura da fonte.*/
+    color: #FF9900;
+}
+
+#hero p { /* para todo p dentro do id hero faça: */
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    font-size: 14px; /* font-size= tamanho da fonte. consta no figma */
+    line-height: 28px; /* altura entre uma linha e outra (height = altura e line = linha) consta no figma em Tpography */
+}
+
+#hero p span {
+    color: #FF9900;
+}
+
+/* foi atrubuído no #hero {margin-bottom: 72px; } essa margin é espaço da margem inferior da caixa de todo o hero para a linha contida no footer*/
+
+#footer, #line { /*no id line contido dentro do id footer criado no html faça:*/
+    width: 568px; /*width=largura*/
+    height: 0px; /*height=altura*/
+    border: 1px solid #eceff2; /*border= borda com as dimensões 1px de espessura */
+    margin-top: 0;
+    margin-right:auto;
+    margin-bottom: 8px;/* definimos um top 0, auto nas laterais e 8px no button. o button é a distância da linha para a caixa do instagram e fale conosco.*/
+    margin-left: auto; 
+    
+   /* a largura autumotácia foi para as margens:direita(right) e esquerda(left)
+    da caixa que contêm o id line. Assim ficou centralizado.
+    A margin:auto não aceita o top e bottom somente o left e right*/
+}
+
+#footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    font-size: 14px; /* font-size= tamanho da fonte. consta no figma */
+    line-height: 28px; /* altura entre uma linha e outra (height = altura e line = linha) 
+    essa altura é da line para a tag <a> e da tag para img balls */
+}
+
+#footer a {
+    color: #FF9900;
+}
+
+#footer a + a { /* footer=rodapé. para alinhar os espaços entres instagram e fale conosco*/
+    margin-left: 28px;
+}
+
+
+#balls { /*para o id balls faça:*/
+    position: fixed; /*posição fixada ou seja: mesmo que role a página ele vai permanecer no lugar*/
+    bottom: 0px; /* a margem inferior será 0px ou seja, vai ficar colada no rodapé da página*/
+    right: 0px; /*margem direita será 0px, vai ficar colada ao lado direito da página*/
+
+    margn
+}
+
